@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PipeLine</title>
+</head>
+
+<body>
+    <h1>Pipeline 控制面板</h1>
+    <p>這是一個基本的 HTML 頁面。</p>
+
+    <form action="/pod_1" method="get">
+        <input type="submit" value="呼叫 Pod 1">
+    </form>
+
+    <form action="/pod_2" method="get">
+        <input type="submit" value="呼叫 Pod 2">
+    </form>
+
+    <form action="/pod_1_to_pod_2" method="get">
+        <input type="submit" value="呼叫 Pod 1 -> Pod 2">
+    </form>
+
+    <form action="/pod_2_to_pod_1" method="get">
+        <input type="submit" value="呼叫 Pod 2 -> Pod 1">
+    </form>
+</body>
+
+</html>
